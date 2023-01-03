@@ -1,0 +1,41 @@
+html {
+  font-family: "Lato";
+}
+
+#scores caption {
+  caption-side: top;
+  text-align: center;
+}
+
+#scores table {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+#scores td, th {
+  border: 1px solid #ddd;
+}
+
+#scores td {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 5px;
+} 
+
+#scores th {
+  background-color: rgba(0, 77, 170, 50);
+  background-color: #04AA6D; /* we use the w3schools color here as "homage" yep */
+  padding: 10px;
+}
+
+#score-button {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: large;
+}
+
+#scores {
+  text-align: center;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Online RAADS-R Test</title>
+</head>
+<body>
+  <div id="main">
+    <h1>The Ritvo Autism Asperger Diagnostic Scale-Revised (RAADS-R) Test</h1>
+    <small>More info about this test at: <a href="https://embrace-autism.com/raads-r/">https://embrace-autism.com/raads-r/</a></small>
+    <br>
+    <br>
+
+    <!-- Quiz questions would go here -->
+  </div>
+
+  <button id="score-button" onclick="score()">Score</button>
+
+  <div id="scores" style="display: none;">
+    <caption>Your test results:</caption>
+
+    <table id="scores-table">
+      <thead>
+        <tr>
+          <th>RAADS-R Results</th>
+          <th>Total Score</th>
+          <th>Language</th>
+          <th>Social relatedness</th>
+          <th>Sensory/motor</th>
+          <th>Circumscribed interests</th>
+        </tr>
+      </thead>  
+
+      <tbody>
+        <tr id="scores-row">
+          <td><b>Your Scores</b></td>
+          <td id="1"></td>
+          <td id="2"></td>
+          <td id="3"></td>
+          <td id="4"></td>
+          <td id="5"></td>
+        </tr>
+
+        <tr>
+          <td>Autism Statistical Mean</td>
+          <td>133.83 (44&ndash;227)</td>
+          <td>11.08</td>
+          <td>67.89</td>
+          <td>32.82</td>
+          <td>28.11</td>
+        </tr>
+
+        <tr>
+          <td>Autism Threshold</td>
+          <td>65.0</td>
+          <td>4.0</td>
+          <td>31.0</td>
+          <td>16.0</td>
+          <td>15.0</td>
+        </tr>
+
+        <tr>
+          <td>Neurotypical Statistical Mean</td>
+          <td>25.95 (0&ndash;65)</td>
+          <td>1.86</td>
+          <td>9.24</td>
+          <td>5.26</td>
+          <td>5.03</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br>
+  </div>
+
+  <!--- We put script at end of body so other elements can load first and the script can access them -->
+  <script src="script.js"></script>
+</body>
+</html>
